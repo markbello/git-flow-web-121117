@@ -263,7 +263,7 @@ describe "GIT" do
 
   it "34. If you clone down a repo and make one change that you add and commit locally,
      and one developer has pushed to your remote since you cloned it,
-     will 'git status' say you're ahead or behind (or both) origin/master?" do
+     will 'git status' say you're ahead or behind (or both) origin/master? " do
     # "ahead" or "behind" or "ahead and behind"
     answer = "ahead and behind"
     encoded_answer = "d81d22fb57ad5589d12d6363f4160b33232c3510"
